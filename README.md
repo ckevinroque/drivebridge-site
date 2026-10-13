@@ -28,9 +28,8 @@ npm run preview    # serve dist/ locally to check the build
 - **Google Play button.** The app isn't public yet, so the button reads "Coming soon to Google
   Play" and links nowhere. When it is live, set `PLAY_STORE_LIVE = true` in `src/main.js`
   (the URL is `PLAY_STORE_URL` in the same file) and rebuild.
-- **Domain.** Once the domain is known, uncomment the `<link rel="canonical">` in both HTML files,
-  make `og:image` / `twitter:image` absolute (`https://YOUR-DOMAIN/og-image.png`), and add a
-  `Sitemap:` line to `public/robots.txt`. A sitemap only needs two URLs: `/` and `/privacy.html`.
+- **Domain.** The site lives at https://drivebridge.nytcoders.com. Canonical links, share images,
+  `public/sitemap.xml` and `public/robots.txt` use that address; change them together if it moves.
 - **Privacy policy.** `privacy.html` is a hand-made copy of `docs/PRIVACY.md`. When the policy
   changes, update both.
 
@@ -51,7 +50,12 @@ Push this folder to a Git repository, then in hPanel either:
 
 - **Node.js web app** (on plans that include it): connect the repository, set the build command to
   `npm run build` and the output directory to `dist`.
-- **Git deployment** (Websites > Advanced > Git): this only pulls files, it doesn't build. Either
-  commit a built `dist/` on a separate deploy branch, or use Option A.
+- **Git deployment** (Websites > Advanced > Git): this only pulls files, it doesn't build, so it
+  deploys the **`hostinger` branch**, which holds the built site at the top level. Set the
+  repository to `https://github.com/ckevinroque/drivebridge-site.git`, the branch to `hostinger`,
+  and the install path to the subdomain's folder (empty it first; Hostinger only deploys into an
+  empty folder). After changing the site, run `npm run deploy:hostinger` (builds and pushes the
+  branch), then press **Deploy** in hPanel or turn on auto-deployment with the webhook it shows.
 
-Then enable the free SSL certificate in hPanel and turn on **Force HTTPS**.
+Then enable the free SSL certificate in hPanel. `public/.htaccess` already redirects http to https
+and makes `/privacy` open the privacy policy.

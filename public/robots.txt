@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap: add once the domain is known, e.g.
-# Sitemap: https://YOUR-DOMAIN/sitemap.xml
-# The site has two pages: / and /privacy.html
+Sitemap: https://drivebridge.nytcoders.com/sitemap.xml

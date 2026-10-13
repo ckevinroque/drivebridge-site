@@ -1,0 +1,7 @@
+# Hostinger (Apache / LiteSpeed): always serve over HTTPS.
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# /privacy also opens the privacy policy.
+RewriteRule ^privacy/?$ /privacy.html [L]

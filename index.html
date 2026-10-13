@@ -3,13 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>DriveBridge: your apps and websites, one tap away</title>
+    <title>DriveBridge: your apps, websites, radio and TV in one place</title>
     <meta
       name="description"
-      content="DriveBridge is a clean, private launcher for Android: big tiles for your favorite apps and websites, a big clock, and a secure HTTPS browser with mobile or desktop layouts. No account, no ads, no tracking."
+      content="DriveBridge is a clean, private launcher for Android: big tiles for your favorite apps and websites, a secure HTTPS browser, and Radio &amp; TV you can listen to on your phone or in Android Auto. No account, no ads, no tracking."
     />
-    <!-- TODO: add the canonical URL once the domain is known, e.g.
-    <link rel="canonical" href="https://YOUR-DOMAIN/" /> -->
+    <link rel="canonical" href="https://drivebridge.nytcoders.com/" />
     <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" content="#f3f6fb" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#0a162c" media="(prefers-color-scheme: dark)" />
@@ -17,26 +16,26 @@
     <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-    <!-- Open Graph / Twitter. Once the domain is known, make og:image and og:url absolute
-         (https://YOUR-DOMAIN/og-image.png); most link previews need an absolute image URL. -->
+    <!-- Open Graph / Twitter: link previews need absolute URLs. -->
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://drivebridge.nytcoders.com/" />
     <meta property="og:site_name" content="DriveBridge" />
-    <meta property="og:title" content="DriveBridge: your apps and websites, one tap away" />
+    <meta property="og:title" content="DriveBridge: your apps, websites, radio and TV in one place" />
     <meta
       property="og:description"
-      content="Big tiles, a clock and a secure browser for Android. No account, no ads, no tracking."
+      content="Big tiles, a secure browser, and radio and TV sound on your phone or in Android Auto. No account, no ads, no tracking."
     />
-    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image" content="https://drivebridge.nytcoders.com/og-image.png" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="500" />
     <meta property="og:image:alt" content="The DriveBridge logo on a dark blue background" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="DriveBridge: your apps and websites, one tap away" />
+    <meta name="twitter:title" content="DriveBridge: your apps, websites, radio and TV in one place" />
     <meta
       name="twitter:description"
-      content="Big tiles, a clock and a secure browser for Android. No account, no ads, no tracking."
+      content="Big tiles, a secure browser, and radio and TV sound on your phone or in Android Auto. No account, no ads, no tracking."
     />
-    <meta name="twitter:image" content="/og-image.png" />
+    <meta name="twitter:image" content="https://drivebridge.nytcoders.com/og-image.png" />
 
     <link rel="stylesheet" href="/src/style.css" />
     <script type="module" src="/src/main.js"></script>
@@ -53,7 +52,7 @@
         <nav class="site-nav" aria-label="Main">
           <ul>
             <li><a href="#features">Features</a></li>
-            <li><a href="#android-auto">Coming soon</a></li>
+            <li><a href="#radio-tv">Radio &amp; TV</a></li>
             <li><a href="#privacy">Privacy</a></li>
             <li><a href="#faq">FAQ</a></li>
           </ul>
@@ -67,7 +66,7 @@
           <div>
             <img class="hero-mark" src="/mark.webp" alt="" width="360" height="339" />
             <h1 id="hero-title">Drive<span class="gradient-text">Bridge</span></h1>
-            <p class="lead">Your apps and websites, one tap away: big tiles, a clock and a secure browser.</p>
+            <p class="lead">Your apps, websites, radio and TV sound in one place, also in Android Auto.</p>
 
             <a class="btn btn-play" data-play-link role="link" aria-disabled="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5" /><path d="M11 18h2" /></svg>
@@ -80,6 +79,7 @@
               <li>No ads</li>
               <li>No tracking</li>
               <li>HTTPS-only browser</li>
+              <li>Android Auto audio</li>
             </ul>
           </div>
 
@@ -99,7 +99,7 @@
           <div class="section-intro">
             <span class="eyebrow">What it does today</span>
             <h2 id="features-title">A clean launcher for the apps and sites you use most</h2>
-            <p>DriveBridge puts your favorites on large, easy-to-tap tiles, and opens websites in a built-in browser that only loads secure pages.</p>
+            <p>DriveBridge puts your favorites on large, easy-to-tap tiles, opens websites in a built-in browser that only loads secure pages, and plays internet radio and TV sound on your phone or in your car.</p>
           </div>
 
           <ul class="feature-grid">
@@ -186,29 +186,33 @@
         </div>
       </section>
 
-      <section id="android-auto" class="section" aria-labelledby="auto-title">
+      <section id="radio-tv" class="section" aria-labelledby="radio-title">
         <div class="container">
           <div class="soon">
             <div>
-              <span class="badge">Coming soon</span>
-              <h2 id="auto-title">Android Auto audio</h2>
-              <p>We're working on bringing DriveBridge's audio to Android Auto, so you can pick something to listen to from your car's screen.</p>
-              <p class="fine-print">This feature is <strong>not available yet</strong> and has not been tested in a real car. It is audio only: no video on the car screen. It will reach Google Play only once it has been properly tested.</p>
+              <span class="badge">New</span>
+              <h2 id="radio-title">Radio &amp; TV, also in Android Auto</h2>
+              <p>Add internet radio stations and free TV channel lists, then listen on your phone, or in your car with Android Auto. Pick from Radio, TV, Favorites and Recent on the car screen, or ask by voice.</p>
+              <ul class="check-list">
+                <li>
+                  <strong>Internet radio</strong>
+                  <span>Stations from the Radio Browser community directory, or your own links.</span>
+                </li>
+                <li>
+                  <strong>TV channel sound</strong>
+                  <span>Free channel lists from iptv-org, or your own M3U playlist. TV plays as sound only.</span>
+                </li>
+                <li>
+                  <strong>A–Z, with favorites first</strong>
+                  <span>Star the stations you love and they appear at the top, on the phone and in the car.</span>
+                </li>
+              </ul>
+              <p class="fine-print">Sound only: DriveBridge never plays video on the car screen. It doesn't host or check the streams in the lists you add, so some may be offline or unavailable in your country.</p>
             </div>
-            <ul class="check-list">
-              <li>
-                <strong>Internet radio</strong>
-                <span>Find and play stations from the Radio Browser community directory.</span>
-              </li>
-              <li>
-                <strong>TV channel sound</strong>
-                <span>Listen to the audio of TV channels while you drive.</span>
-              </li>
-              <li>
-                <strong>Your own playlists</strong>
-                <span>Add your own playlists and play their audio from the car's screen.</span>
-              </li>
-            </ul>
+            <figure class="car-shot">
+              <img src="/screenshots/android-auto.webp" width="800" height="480" loading="lazy" alt="DriveBridge in Android Auto: tabs for Radio, TV, Favorites and Recent, with the TV tab showing a Favorites folder and channel groups." />
+              <figcaption>DriveBridge in Android Auto</figcaption>
+            </figure>
           </div>
         </div>
       </section>
@@ -218,7 +222,7 @@
           <div class="section-intro">
             <span class="eyebrow">Our privacy promise</span>
             <h2 id="privacy-title">Everything you set up stays on your phone</h2>
-            <p>DriveBridge does not collect, sell or share your personal data. Website icons are downloaded directly from each website you add, never through a third-party service.</p>
+            <p>DriveBridge does not collect, sell or share your personal data. Your shortcuts and your Radio &amp; TV list stay on your phone, and website icons are downloaded directly from each website you add, never through a third-party service.</p>
           </div>
           <ul class="promise-grid">
             <li><strong>No account</strong><span>Nothing to sign up for.</span></li>
@@ -239,7 +243,7 @@
           <div class="faq">
             <details>
               <summary>Can I download DriveBridge now?</summary>
-              <p>Not yet. DriveBridge is coming soon to Google Play. It will run on Android phones with Android 10 or newer.</p>
+              <p>Not yet. DriveBridge is in testing and coming soon to Google Play. It runs on Android phones with Android 10 or newer.</p>
             </details>
             <details>
               <summary>How much will it cost?</summary>
@@ -247,7 +251,11 @@
             </details>
             <details>
               <summary>Does it work with Android Auto?</summary>
-              <p>Not yet. Today DriveBridge runs on your phone. Android Auto audio (internet radio, TV channel sound and your own playlists) is in development and marked as coming soon.</p>
+              <p>Yes, for sound. Open DriveBridge in Android Auto to browse Radio, TV, Favorites and Recent and play a station or a TV channel's sound, or ask by voice. It doesn't show video or mirror your phone on the car screen.</p>
+            </details>
+            <details>
+              <summary>Where do the radio stations and TV channels come from?</summary>
+              <p>From the lists you add: one tap adds public lists from Radio Browser (radio-browser.info) or iptv-org on GitHub, or you can add your own playlist link. DriveBridge doesn't host, check or record any stream.</p>
             </details>
             <details>
               <summary>Why does the browser only open HTTPS websites?</summary>

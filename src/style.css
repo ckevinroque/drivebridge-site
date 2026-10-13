@@ -655,3 +655,30 @@ a:hover {
 .legal-meta p {
   margin: 0;
 }
+
+/* Landscape car-screen screenshot (Android Auto). */
+.car-shot {
+  margin: 0;
+  align-self: center;
+}
+
+.car-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  border: 6px solid var(--phone-frame);
+  box-shadow: var(--shadow);
+  background: var(--navy);
+}
+
+.car-shot figcaption {
+  margin-top: 0.75rem;
+  text-align: center;
+  color: var(--text-2);
+  font-size: 0.95rem;
+}
+
+.soon .check-list {
+  margin-block: 1.25rem;
+}

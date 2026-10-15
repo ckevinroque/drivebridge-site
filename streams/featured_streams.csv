@@ -1,0 +1,43 @@
+﻿Type,Name,Country,Category,Listed by,Stream URL,Independently playback-verified,Logo
+TV,Abante TV,PH,Philippines,iptv-org,https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8,No,
+TV,Bilyonaryo News Channel,PH,Philippines,iptv-org,https://amg19223-amg19223c11-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c11-amgplt0352/playlist.m3u8,No,https://i.imgur.com/iTH9Z0j.png
+TV,Hope Channel Philippines,PH,Philippines,iptv-org,https://jstre.am/live/jsl:nX5eC7gQvZb.m3u8,No,https://i.imgur.com/LB2vmMt.png
+TV,INC Radio TV,PH,Philippines,iptv-org,https://stream-243529.castr.net/6842a712b68c56f675d988f1/live_b60a96e056fc11f084c05f5d0649296b/rewind-1800.m3u8,No,https://i.imgur.com/y2Nrr68.png
+TV,INC TV,PH,Philippines,iptv-org,https://stream-243529.castr.net/6842a712b68c56f675d988f1/live_f5ac22b0566511f0805217b960326aaa/rewind-1800.m3u8,No,https://i.imgur.com/JGSLqA6.png
+TV,Space Live (SEN),US,Science,iptv-org,https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8,No,https://static.frequency.com/studio/itv/channels/1224-400x200.png
+TV,NHK World-Japan,JP,News,iptv-org,https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8,No,https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png
+TV,DW English,DE,News,Free-TV,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8,No,https://i.imgur.com/A1xzjOI.png
+TV,Al Jazeera English,QA,News,Free-TV,https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8,No,https://i.imgur.com/7bRVpnu.png
+TV,CGTN,CN,News,iptv-org,https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8,No,https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png
+TV,NBC News NOW,US,News,iptv-org,https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001,No,https://i.imgur.com/JZt2qh5.png
+TV,CBS News,US,News,Free-TV,https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8,No,https://i.imgur.com/nki2HDQ.png
+TV,LiveNOW from FOX,US,News,Free-TV,https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8,No,https://i.imgur.com/1JnyzHv.png
+TV,Reuters TV,US,News,Free-TV,https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8,No,https://i.imgur.com/6eQ2nCJ.png
+TV,Bloomberg TV US,US,Business,Free-TV,https://bloomberg.com/media-manifest/streams/us.m3u8,No,https://i.imgur.com/VnCcH73.png
+TV,Bloomberg TV Europe,GB,Business,Free-TV,https://bloomberg.com/media-manifest/streams/eu.m3u8,No,https://i.imgur.com/OuogLHx.png
+TV,Cheddar News,US,Business,Free-TV,https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8,No,https://i.imgur.com/tuP9GW8.png
+TV,Yahoo Finance,US,Business,Free-TV,https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8,No,https://i.imgur.com/43oHsHL.png
+TV,FOX Weather,US,Weather,Free-TV,https://247wlive.foxweather.com/stream/index.m3u8,No,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fox_Weather_logo.svg/960px-Fox_Weather_logo.svg.png
+TV,AccuWeather NOW,US,Weather,Free-TV,https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8,No,https://i.imgur.com/M8wbVYK.png
+TV,Court TV,US,News,Free-TV,https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8,No,
+TV,Now 70s,GB,Music,Free-TV,https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8,No,https://i.imgur.com/qiCCX5X.png
+TV,Now 80s,GB,Music,Free-TV,https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8,No,https://i.imgur.com/YyPnMeB.png
+TV,DW Arabic,DE,News,Free-TV,https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8,No,https://i.imgur.com/A1xzjOI.png
+TV,Al Jazeera Arabic,QA,News,Free-TV,https://live-hls-web-aja.getaj.net/AJA/index.m3u8,No,https://i.imgur.com/BB93NQP.png
+TV,Sky News Arabia,AE,News,Free-TV,https://stream.skynewsarabia.com/hls/sna.m3u8,No,https://i.imgur.com/SvjU4h6.png
+Radio,Star FM Manila,PH,FM,72FM Radio Browser,https://stream-13.zeno.fm/g1pmt17nz9duv,No,
+Radio,DYHP 612 RMN Cebu,PH,AM,72FM Radio Browser,https://de3.amfmph.com/ssl/rmncebu?mp=%2Fstream,No,https://upload.wikimedia.org/wikipedia/en/c/cb/DYHP_612.png
+Radio,Barangay LS 97.1 Manila,PH,FM,72FM Radio Browser,http://28093.live.streamtheworld.com:3690/MORFM_S01AAC_SC,No,
+Radio,MOR Entertainment,PH,Online,72FM Radio Browser,https://stream-37.zeno.fm/26ea0anpms8uv,No,https://azuretv2devewu00sca63.blob.core.windows.net/abscbnimages/icon.png
+Radio,Bombo Radyo Iloilo,PH,AM,72FM Radio Browser,https://stream.zenolive.com/gzudz59nz9duv,No,
+Radio,Win Radio Manila,PH,FM,72FM Radio Browser,https://stream-31.zeno.fm/2ss1hgnu6hhvv,No,
+Radio,90.7 Love Radio Manila,PH,FM,Radio Browser,https://azura.loveradio.com.ph/listen/love_radio_manila/radio.mp3,No,
+Radio,106.7 True FM,PH,FM,Radio Browser,https://radio.tv5.com.ph/truefm/audio.stream/playlist.m3u8,No,
+Radio,DWWW 774,PH,AM,72FM Radio Browser,https://stream.zeno.fm/kc3cct89sxquv,No,
+Radio,DZRH 666,PH,AM,Radio Browser,https://azura.dzrh.com.ph/listen/dzrh_manila/radio.mp3,No,https://dzrh.com.ph/opengraph-image.png?56ff2bbe65b6c224
+Radio,Love Radio Cebu,PH,FM,72FM Radio Browser,http://loveradiocebu.radioca.st:8033/stream,No,
+Radio,Pinoy Rap Radio,PH,Online,72FM Radio Browser,https://stream.zeno.fm/0cdp55nqam0uv,No,
+Radio,BBC World Service,GB,News,72FM Radio Browser,http://stream.live.vc.bbcmedia.co.uk/bbc_world_service,No,
+Radio,NPR 24 Hour Program,US,News,72FM Radio Browser,http://npr-ice.streamguys1.com/live.mp3,No,https://static-assets.npr.org/static/images/favicon/favicon-96x96.png
+Radio,Heart 80s,GB,80s,72FM Radio Browser,https://media-ssl.musicradio.com/Heart80sMP3,No,https://www.heart.co.uk/assets_v4r/heart/img/favicon-196x196.png
+Radio,SomaFM Underground 80s,US,80s,72FM Radio Browser,https://ice5.somafm.com/u80s-128-mp3,No,https://somafm.com/img3/u80s-400.jpg

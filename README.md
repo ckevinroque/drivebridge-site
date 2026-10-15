@@ -10,6 +10,8 @@ privacy.html      Privacy policy (same wording as docs/PRIVACY.md in the app rep
 src/style.css     All styles; brand colours are CSS custom properties on :root
 src/main.js       Google Play link switch (see below)
 public/           Copied as-is to dist/: icons, logo, screenshots, og-image.png, robots.txt
+public/streams/   featured_streams.csv: the app's Featured TV and radio lists, which the app
+                  downloads (copy of app/assets/streams/featured_streams.csv in the app repo)
 ```
 
 Requires Node.js 20.19+ or 22.12+.

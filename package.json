@@ -11,7 +11,7 @@
     "deploy:hostinger": "node scripts/deploy-hostinger.mjs"
   },
   "devDependencies": {
-    "vite": "8.3.1"
+    "vite": "8.3.3"
   },
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
